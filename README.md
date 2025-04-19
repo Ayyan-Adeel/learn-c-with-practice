@@ -67,6 +67,23 @@ This repository contains my complete C programming learning journey, based on th
 
 ---
 
+## 🏃‍♂️ How to Run the Programs
+
+You can run the `.c` files using:
+
+### 🔧 **GCC via Terminal**
+```bash
+gcc filename.c -o output
+./output
+```
+
+### 💻 **Or Use an IDE**
+Use any C IDE like `Code::Blocks`, `Dev C++`, `VS Code` with C extensions, etc.
+
+> 📌 Tip: For beginners, [Code::Blocks](http://www.codeblocks.org/) is a great choice with minimal setup.
+
+---
+
 ## 📄 License
 This repository is licensed under the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) License.
 
