@@ -24,5 +24,5 @@ int main()
 // Misnomer --> This b is different from b in main()
 void change (int b)
 {
-    b = 77; // value of b will be unchanged
+    b = 77; // value of b will not change in main()
 }

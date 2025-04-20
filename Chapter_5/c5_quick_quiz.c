@@ -1,27 +1,27 @@
 // C5. Display three greetings of a day
 #include<stdio.h>
 
-void goodMorning(), goodAfternoon(), goodNight(); // Function Prototype
+void goodMorning(), goodAfternoon(), goodNight(); // Function Prototypes
 
 int main()
 {
-    goodMorning(), goodAfternoon(), goodNight(); // Function Call
+    goodMorning(), goodAfternoon(), goodNight(); // Function Calls
     return 0;
 }
 
-// Function Description
+// Function Descriptions
 
 void goodMorning()
 {
-    printf("Good Morning!\n");
+    puts("Good Morning!");
 }
 
 void goodAfternoon()
 {
-    printf("Good Afternoon!\n");
+    puts("Good Afternoon!");
 }
 
 void goodNight()
 {
-    printf("Good Night!\n");
+    puts("Good Night!");
 }

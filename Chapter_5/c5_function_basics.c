@@ -5,11 +5,11 @@ void display(); // Function Prototype
 
 int main()
 {
-    printf("Initializing display function\n");
+    puts("Initialize display function...");
 
     display(); // Function Call
 
-    printf("Display function finished its work\n");
+    puts("Display function finished its work!");
 
     return 0;
 }
@@ -17,5 +17,5 @@ int main()
 // Function Description
 void display()
 {
-    printf("This is display!\n");
+    puts("This is display!");
 }
