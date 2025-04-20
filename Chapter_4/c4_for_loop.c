@@ -3,7 +3,7 @@
 
 int main()
 {
-    // Iterator and store number via user input
+    // Iterator and store user entered number
     int i, n;
     
     printf("\nEnter any natural number: ");
@@ -16,9 +16,7 @@ int main()
             printf("%d\n", i);
         }
     }
-    else
-    {
-        printf("Please enter a natural number!\n");
-    }
+    else puts("Please enter a natural number!");
+    
     return 0;
 }
