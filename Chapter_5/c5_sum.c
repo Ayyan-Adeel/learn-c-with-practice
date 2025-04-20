@@ -2,20 +2,20 @@
 #include<stdio.h>
 
 // Function Prototype
-// Function sum has int a and int b as function parameters and has return type of int.
-int sum (int a, int b);
+int sum (int a, int b); // sum has function parameters(i.e. inputs): a and b with return type of int.
 
 int main()
 {
     // This var c has no relation with the var c in sum function
-    int c = sum (10, 9); // Function Call; In sum (10, 9), 10 and 9 are arguments;
+    int c = sum (10, 9); // Function call with arguments: 10 and 9
+    
     printf("The value of c is %d\n", c);
     return 0;
 }
 
 // Function Description
 
-// Sum is a function which takes a and b as input
+// Sum is a function which takes a and b as inputs
 int sum (int a, int b)
 {
     int c;

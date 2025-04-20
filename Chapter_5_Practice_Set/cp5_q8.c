@@ -17,13 +17,11 @@ int main()
 
     if (n > 0)
     {
-        printf("\nRequired Pattern\n");
+        puts("\nRequired Pattern");
         pattern(n); // Function Call
     }
-    else
-    {
-        printf("Please enter a positive non-zero integer value!");
-    }
+    else puts("Please enter a positive non-zero integer value!");
+
     return 0;
 }
 
@@ -38,7 +36,7 @@ void pattern(int n)
 
     pattern(n - 1);
 
-    for (i = 0; i < (2 * n - 1); i++) // 2 * n - 1 = Odd number formula
+    for (i = 0; i < (2 * n - 1); i++) // Odd number formula
     {
         printf("* ");
     }

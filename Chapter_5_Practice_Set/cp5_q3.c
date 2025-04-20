@@ -7,11 +7,10 @@ float calculate (float mass);
 int main()
 {
     float mass;
-    printf("\nEnter the mass of the body in kgs: ");
+    printf("\nEnter body mass in kg: ");
     scanf("%f", &mass);
 
-    printf("Force of attraction on the body by earth is %f N\n", calculate (mass)); // Function Call
-
+    printf("Force of attraction on the body by earth is %f N.\n", calculate (mass)); // Function Call
     return 0;
 }
 

@@ -50,6 +50,20 @@ So, `calculate(5)` returns **5** – the 5th Fibonacci number!
 
 ---
 
-### 💡Tip: Think of it like unfolding a math formula step by step — recursion breaks the problem into smaller versions of itself.
+### 💡Tip 1: Think of it like unfolding a math formula step by step — recursion breaks the problem into smaller versions of itself.
+
+---
+
+### 💡Tip 2: You can only pass actual **values** or **function calls** that return values, like:
+```c
+printf("%d", calculate(n));
+```
+
+- It **doesn’t** pick up values from future lines or other `printf()`s:
+  ```c
+  printf("%d");      // ❌ No value given — undefined behavior
+  printf(42);        // ❌ Invalid, no format specifier
+  printf("%d", 42);  // ✅ Perfect, expects an integer argument right there
+  ```
 
 ---

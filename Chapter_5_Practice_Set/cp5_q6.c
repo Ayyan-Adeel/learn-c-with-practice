@@ -1,4 +1,4 @@
-// CP5. Sum of first n natural numbers
+// CP5. Sum of first n natural numbers [Recursion]
 #include <stdio.h>
 
 // Function Prototype
@@ -17,9 +17,7 @@ int main()
 // Function Description
 int sum(int num)
 {
-    if (num < 2)
-    {
-        return num;
-    }
+    if (num < 2) return num;
+
     return num + sum(num - 1);
 }

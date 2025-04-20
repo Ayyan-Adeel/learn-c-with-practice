@@ -10,21 +10,21 @@ int main()
     printf("\nEnter the nth element: ");
     scanf("%d", &n);
 
-    if (n == 0)
-        printf("Please enter a non-zero value!\n");
+    if (n == 0) puts("Please enter a non-zero value!");
 
-    printf("Element number %d of Fibonacci series is ");
+    printf("Element number %d of Fibonacci series is ", n);
+    printf("%d");
     if (n > 2)
     {
-        printf("%d\n", n, calculate(n - 1));
+        printf(calculate(n - 1));
     }
     else if (n > 0)
     {
-        printf("%d\n", n, n - 1);
+        printf(n - 1);
     }
     else
     {
-        printf("%d\n", n, (-1) * calculate((n + 1) * (-1)));
+        printf((-1 * calculate((n + 1) * -1)));
     }
     return 0;
 }

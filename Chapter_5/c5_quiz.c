@@ -8,7 +8,7 @@ int main()
 {
     float side; // length of square's side
 
-    printf("\nEnter the length of a side of the square: ");
+    printf("\nEnter the length of a square's side: ");
     scanf("%f", &side);
 
     printf("Area of the square is %f\n", area (side)); // Function Call + Output
