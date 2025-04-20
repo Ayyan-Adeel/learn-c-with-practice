@@ -1,32 +1,34 @@
 // C3. Explaining Switch Case by rating
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
+int main()
+{
     int rating;
 
     printf("\nEnter your rating (1-5): ");
     scanf("%d", &rating);
 
-    switch (rating)
+    puts("Your rating is ");
+    switch (rating) // imports rating as comparator
     {
-    case 1:
-        printf("Your rating is 1\n");
-        break;
+    case 1:         // Think of `if (comparator, i.e. rating here == 1)` and so on for other cases
+        puts("1");
+        break;      // exits switch case
     case 2:
-        printf("Your rating is 2\n");
+        puts("2");
         break;
     case 3:
-        printf("Your rating is 3\n");
+        puts("3");
         break;
     case 4:
-        printf("Your rating is 4\n");
+        puts("4");
         break;
     case 5:
-        printf("Your rating is 5\n");
+        puts("5");
         break;
-    
-    default:
-    printf("Invalid rating!\n");
+
+    default: // like else
+        puts("invalid!");
         break;
     }
 
