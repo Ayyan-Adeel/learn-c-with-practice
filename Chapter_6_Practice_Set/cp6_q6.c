@@ -6,12 +6,12 @@ int change(int var);
 
 int main()
 {
-    int variable;
+    int var;
 
-    printf("\nEnter any number of your choice: ");
-    scanf("%d", &variable);
+    printf("\nEnter a number of your choice: ");
+    scanf("%d", &var);
 
-    printf("%d x 10 = %d\n", variable, change(variable)); // Function Call
+    printf("%d x 10 = %d\n", var, change(var)); // Function Call
     return 0;
 }
 

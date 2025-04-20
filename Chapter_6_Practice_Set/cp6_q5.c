@@ -8,7 +8,8 @@ int main()
     int **ptr2 = &ptr;
 
     printf("\nThe value of i is %d\n"
-           "Using pointer to pointer is %d\n", i, **ptr2); 
+           "Using pointer to pointer is %d\n",
+           i, **ptr2);
 
     // Think of it like: *(*ptr2)
 
