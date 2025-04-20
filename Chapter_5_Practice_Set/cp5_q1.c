@@ -8,10 +8,10 @@ int main()
 {
     int a, b, c; // initialize three numbers
 
-    printf("\nEnter any three numbers of your choice one by one\n");
+    puts("\nEnter any three numbers one by one");
     scanf("%d%d%d", &a, &b, &c);
 
-    printf("Average of %d, %d & %d is %.2f\n", a, b, c, average (a, b, c)); // Function Call
+    printf("Average of %d, %d & %d is %.2f.\n", a, b, c, average (a, b, c)); // Function Call
 
     return 0;
 }

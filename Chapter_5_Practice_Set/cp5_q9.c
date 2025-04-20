@@ -6,29 +6,25 @@
 
 int main()
 {
-    // number of rows, row iterator and column iterator
-    int n, i, j;
-
+    int n; // number of rows
     printf("\nEnter the number of rows: ");
     scanf("%d", &n);
 
     if (n > 0)
     {
-        printf("\nRequired Pattern\n");
+        puts("\nRequired Pattern");
 
-        for (i = 1; i <= n; i++) // Row
+        for (int i = 1; i <= n; i++) // Row
         {
             // Odd number formula
-            for (j = 1; j <= (2 * i - 1); j++) // Column
+            for (int j = 1; j <= (2 * i - 1); j++) // Column
             {
                 printf("* ");
             }
-            printf("\n");
+            puts("");
         }
     }
-    else
-    {
-        printf("Please enter a positive non-zero integer value!");
-    }
+    else puts("Please enter a positive non-zero integer value!");
+
     return 0;
 }

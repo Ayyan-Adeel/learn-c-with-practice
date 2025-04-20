@@ -1,4 +1,4 @@
-// CP5. Function to print the following pattern
+// CP5. Function to print the following pattern [Recursion]
 // *
 // * * *
 // * * * * *
@@ -17,13 +17,11 @@ int main()
 
     if (n > 0)
     {
-        printf("\nRequired Pattern\n");
+        puts("\nRequired Pattern");
         pattern (n, 1, 1); // Function Call
     }
-    else
-    {
-        printf("Please enter a positive non-zero integer value!");
-    }
+    else puts("Please enter a positive non-zero integer value!");
+
     return 0;
 }
 
@@ -32,8 +30,7 @@ int main()
 // Don't do this use loops instead
 void pattern(int n, int column, int row)
 {
-    if (tag > n)
-        return;
+    if (tag > n) return;
     
     if (column <= row)
     {

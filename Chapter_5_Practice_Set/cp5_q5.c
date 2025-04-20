@@ -4,6 +4,7 @@
 int main()
 {
     int a = 3;
-    printf("%d %d %d\n", a, ++a, a++); // Order of Passed Arguments --> Right to Left; Cross Question during interview
+    // Interview Question
+    printf("%d %d %d\n", a, ++a, a++); // Passed Arguments order: Right to Left or Left to Right [Compiler Dependent] 
     return 0;
 }
