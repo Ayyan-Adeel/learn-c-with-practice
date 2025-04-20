@@ -1,4 +1,4 @@
-// CP4. Check if a number is prime
+// CP4. Another method to check for prime number
 #include <stdio.h>
 #include <math.h>
 
