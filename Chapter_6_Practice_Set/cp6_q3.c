@@ -8,7 +8,7 @@ int main()
 {
     int variable;
 
-    printf("\nEnter any number: ");
+    printf("\nEnter a number: ");
     scanf("%d", &variable);
 
     printf("\nValue before change is %d\n", variable);
@@ -24,6 +24,5 @@ int main()
 int change(int *var)
 {
     *var = *var * 10;
-
-    return 0;
+    return 0; // Don't get confused ;). It just returns 0 at the end.
 }

@@ -7,6 +7,7 @@
 
 int main()
 {
+    // variable: i; pointers: j, k;
     int i = 34;
 
     int *j = &i;  // j stores the address of i (pointer to int)
@@ -15,13 +16,13 @@ int main()
     // You can go deeper: ***l, ****m, etc., forming multi-level pointers
 
     // ---------------- Values ----------------
-    printf("\n[VALUES]\n");
+    puts("\n[VALUES]");
     printf("i     = %d\n", i);   // Direct value of i
     printf("*j    = %d\n", *j);  // Value at address j (i)
     printf("**k   = %d\n", **k); // Value at address stored in j (i)
 
     // --------------- Standard Addresses (Hex) ---------------
-    printf("\n[ADDRESSES - Standard Hexadecimal Format (%p)]\n");
+    puts("\n[ADDRESSES - Standard Hexadecimal Format (%p)]");
     printf("&i     = %p\n", (void *)&i);    // Address of i
     printf("j      = %p\n", (void *)j);     // j stores address of i
     printf("&j     = %p\n", (void *)&j);    // Address of j
@@ -32,7 +33,7 @@ int main()
     // (void*) → Safely casts pointer for %p format to avoid warnings.
 
     // ------------- Unreliable Addresses (Decimal) -------------
-    printf("\n[ADDRESSES - Optional Decimal Format (%u)]\n");
+    puts("\n[ADDRESSES - Optional Decimal Format (%u)]");
     printf("&i     = %u\n", (unsigned)&i);
     printf("j      = %u\n", (unsigned)j);
     printf("&j     = %u\n", (unsigned)&j);

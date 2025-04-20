@@ -3,7 +3,7 @@
 void main()
 {
 	int a, b, c;
-	printf("\nEnter any two numbers a and b respectively\n");
+	puts("\nEnter any two numbers a and b respectively");
 	scanf("%d %d", &a, &b);
 
 	// Method 1 ---> Recommended Way in Every Language #Portable

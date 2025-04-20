@@ -8,8 +8,8 @@ int main()
 
     printf("\nThe address of `%c` is %p\n"
            "The value at %p is `%c`\n\n",
-           var, (void*)add,
-           (void*)add, *add);
+           var, (void *)add,
+           (void *)add, *add);
 
     return 0;
 }

@@ -1,23 +1,20 @@
 // CP6. Use a function to calculate the sum and average of two numbers. Use pointers and print the values of sum and average in main()
-#include<stdio.h>
+#include <stdio.h>
 
 // Function Prototype
-void sumAverage(int a, int b, int *sum, float *average);
+void sumAverage(int a, int b, int *sum, float *avg);
 
 int main()
 {
     int num1, num2, sum;
-    float average;
+    float avg;
 
-    printf("\nEnter any two numbers of your choice one by one\n");
+    puts("\nEnter any two numbers one by one");
     scanf("%d%d", &num1, &num2);
 
-    sumAverage(num1, num2, &sum, &average); // Function Call
+    sumAverage(num1, num2, &sum, &avg); // Function Call
 
-    printf("\nSum of %d and %d is %d\n"
-            "Average of %d and %d is %.2f\n",
-            num1, num2, sum,
-            num1, num2, average);
+    printf("\nSum of %d and %d is %d and their average is %.2f\n", num1, num2, sum, avg);
 
     return 0;
 }
@@ -26,8 +23,8 @@ int main()
 // void function can indirectly return values by using pointers but can't return values by return statements;
 
 // Function Description
-void sumAverage(int a, int b, int *sum, float *average)
+void sumAverage(int a, int b, int *sum, float *avg)
 {
     *sum = a + b;
-    *average = (float)*sum / 2;
+    *avg = (float)*sum / 2;
 }
