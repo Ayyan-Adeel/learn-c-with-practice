@@ -9,9 +9,7 @@ int main(){
     scanf("%d",& num);
 
     for (i = 2; i <= num; i++)
-    {
         fact *= i;
-    }
     
     printf("Factorial of %d is %d\n", num, fact);
     return 0;

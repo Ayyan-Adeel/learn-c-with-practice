@@ -9,10 +9,8 @@ int main(){
     scanf("%d", &n);
 
     for (i = 1; i <= 10; i++)
-    {
         sum += n * i;
-    }
 
-    printf("Sum of numbers occurring in multiplication table of %d is %d\n", n, sum);
+    printf("Sum of numbers occurring in %d's table is %d\n", n, sum);
     return 0;
 }
