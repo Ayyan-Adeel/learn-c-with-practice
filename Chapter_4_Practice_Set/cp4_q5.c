@@ -18,9 +18,7 @@ int main()
         }
         printf("Sum of first %d natural numbers is %d\n", n, sum);
     }
-    else
-    {
-        printf("Please enter a natural number!\n");
-    }
+    else puts("Please enter a natural number!");
+
     return 0;
 }

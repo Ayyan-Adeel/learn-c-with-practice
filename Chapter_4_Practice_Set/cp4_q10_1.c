@@ -5,7 +5,7 @@
 int main()
 {
     int num, i;      // stores number, iterator
-    int isPrime = 1; // if number is prime or not (1 for true, 0 for false)
+    int isPrime = 1; // 1 = prime, 0 = not prime
 
     printf("\nEnter a number: ");
     scanf("%d", &num);
@@ -27,11 +27,6 @@ int main()
         }
     }
 
-    if (isPrime)
-        printf("%d is", num);
-    else
-        printf("%d is not", num);
-    printf(" a prime number.\n");
-
+    printf("%d is %sa prime number.\n", num, isPrime ? "" : "not ");
     return 0;
 }

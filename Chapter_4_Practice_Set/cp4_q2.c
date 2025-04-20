@@ -5,7 +5,7 @@ int main(){
     // i for iteration; n for the number;
     int i, n;
 
-    printf("\nEnter any number of your choice: ");
+    puts("Hey there! Enter a number below and I'll show you its multiplication table");
     scanf("%d", &n);
 
     printf("\nMultiplication Table of %d in reverse order is:\n", n);
