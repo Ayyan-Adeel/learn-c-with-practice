@@ -7,22 +7,16 @@ int main()
     printf("\nEnter any number: ");
     scanf("%d", &number);
 
+    printf("Your number is "); 
+    // Without {}, only 1 line runs after if/else if/else
     if (number == 1)
-    {
-        printf("Your number is 1\n");
-    }
+        puts("1");
     else if (number == 2)
-    {
-        printf("Your number is 2\n");
-    }
+        puts("2");
     else if (number == 3)
-    {
-        printf("Your number is 3\n");
-    }
+        puts("3");
     else // Else is optional if required!
-    {
-        printf("It's not 1, 2 or 3\n");
-    }
+        puts("not 1, 2 or 3");
 
     return 0;
 }
