@@ -3,10 +3,9 @@
 
 int main()
 {
-    // Initialize four numbers
-    int a, b, c, d;
+    int a, b, c, d; // Initialize four numbers
 
-    printf("\nEnter four numbers of your choice one by one\n");
+    puts("\nEnter any four numbers one by one");
     scanf("%d%d%d%d", &a, &b, &c, &d);
 
     int greatest = a; // stores greatest value
