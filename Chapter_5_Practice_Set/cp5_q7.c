@@ -39,7 +39,7 @@ void pattern(int n, int column, int row)
     }
     else
     {
-        printf("\n");
+        putchar('\n'); // lightweight on compiler + enhance readability
         tag++;
         pattern(n, 1, row + 2);
     }
