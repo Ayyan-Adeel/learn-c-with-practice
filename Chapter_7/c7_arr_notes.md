@@ -31,7 +31,7 @@ void printArray(int *ptr, int n);
 
 Why? Because arrays **decay into pointers** when passed to functions. So both forms mean the function receives a pointer to the first element of the array. You can then use `ptr[i]` or pointer arithmetic to access each element.
 
-✅ **Example:**
+### ✅ Example:
 ```c
 printf("Element %d | value: %d\n", i + 1, ptr[i]);
 ```
@@ -53,23 +53,28 @@ printf("Student %d | marks in subject %d is: %d\n", i + 1, j + 1, marks[i][j]);
 
 ---
 
-## 4. 🌟 `%nd` formatting trick:
+## 4. 🌟 `%nd` formatting trick in `printf`:
 
-`%-2d` is a formatting trick in `printf`:
-
-- `2` → means **minimum width** of 2 characters.
-- `-` → means **left-align** the number within that width.
+- `n` → means **minimum width** the number will be **right-aligned**.
 - `d` → means it's an integer.
 
-So for `Student 1` to `Student 9`, it'll still keep alignment nice, and if later you have `Student 10`, it doesn't mess up the layout.
+### Example `%-2d`:
 
-Example:
+- `2` → is **minimum width**.
+- `-` → means **left-align** the number within width: `2`.
+- `d` → means it's an integer.
+
+Like here `Student 1` to `Student 99`, it'll keep alignment nice, but later if you have `Student 100`, it'll mess up the layout.
+
+### Example: `printf("Student %-2d | Marks: %d", s, m);`
 
 ```
 Student 1  | Marks: 78
 Student 10 | Marks: 90
 ```
 
-Without it, things can get jagged. With it, it's cleaner when numbers grow beyond 1 digit. Want to try it with `%2d` (right-aligned) and compare?
+Without it, things can get jagged. It's cleaner when numbers grow beyond 1 digit. 
+
+### Try it with `-%3d`, **right-aligned `%2d`** and compare.
 
 ---
