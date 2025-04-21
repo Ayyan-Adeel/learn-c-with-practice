@@ -21,7 +21,7 @@ int main()
             {
                 printf("* ");
             }
-            puts("");
+            putchar('\n');
         }
     }
     else puts("Please enter a positive non-zero integer value!");

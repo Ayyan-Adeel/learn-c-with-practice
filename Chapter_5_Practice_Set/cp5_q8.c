@@ -40,5 +40,5 @@ void pattern(int n)
     {
         printf("* ");
     }
-    printf("\n");
+    putchar('\n'); // NOTE: prints one character only
 }
