@@ -1,6 +1,8 @@
 // C7. Pointer Arithmetic
 #include <stdio.h>
-#include <stdint.h>
+#include <stdint.h> // Use uintptr_t from <stdint.h>
+
+// uintptr_t is an unsigned integer type guaranteed to store a pointer without size mismatch warnings.
 
 int main()
 {
