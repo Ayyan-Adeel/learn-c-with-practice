@@ -27,9 +27,9 @@ Perfect for **self-study, revision**, or strengthening your programming foundati
 
 ## 💡 Why This Repo?
 
-- 🔰 Super beginner-friendly  
-- ✨ Carefully revised, easy-to-understand notes  
-- 📌 Ideal for quick revision or interview prep  
+- 🔰 Super **beginner-friendly**
+- ✨ Carefully revised, **easy-to-understand** notes and programs
+- 📌 Ideal for **quick revision** or interview prep  
 - 🪄 Personal journey from learning → building  
 
 ---
@@ -37,7 +37,7 @@ Perfect for **self-study, revision**, or strengthening your programming foundati
 ## 🙌 Credits
 
 - 🎥 Tutorials, handwritten notes & handbook by [CodeWithHarry](https://www.codewithharry.com)  
-- 🧾 Notes, repo, and updates by *me* — Dipsana 😊
+- 🧾 Extra Notes, refined code snippets, repo, and updates by *me* — Dipsana 😊
 
 ---
 
@@ -61,8 +61,8 @@ Perfect for **self-study, revision**, or strengthening your programming foundati
 
 ## 🛣️ What’s Next?
 
-- 🔄 Upgrade projects during future revisions  
-- ✅ Share learning updates on LinkedIn  
+- 🔄 Upgrade projects during future revisions
+- ✅ Share learning updates on [LinkedIn](www.linkedin.com/in/dipsana)
 - 💬 Make this even more helpful for juniors!
 
 ---
