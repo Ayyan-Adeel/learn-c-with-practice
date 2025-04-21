@@ -1,3 +1,4 @@
+<!-- CP2 -->
 Initialize a variable of type `double` in several ways:
 
 1. Direct Initialization:
