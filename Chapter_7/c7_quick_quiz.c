@@ -26,7 +26,7 @@ int main()
             printf("Enter Row [%d] Column [%d] | element: ", i + 1, j + 1);
             scanf("%d", &arr[i][j]);
         }
-        putchar('\n'); // Use putchar for
+        putchar('\n');
     }
 
     puts("Generated 2D Array:");
