@@ -15,7 +15,7 @@ int main()
     }
 
     // Output
-    puts("");
+    putchar('\n');
     for (int i = 0; i < 4; i++)
     {
         printf("Student %d | marks: %d\n", i + 1, marks[i]);

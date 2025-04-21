@@ -18,7 +18,7 @@ int main()
 // Function Description
 void printArray(int *ptr, int n)
 {
-    puts("");
+    putchar('\n');
     for (int i = 0; i < n; i++)
     {
         printf("Element %d | value: %d\n", i + 1, *(ptr + i)); // Want to know more? Read: c7_arr_notes.md

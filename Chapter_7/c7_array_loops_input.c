@@ -6,7 +6,7 @@ int main()
     int i, marks[5];
 
     // Input:
-    puts("");
+    putchar('\n'); // Remember me? prints only 1 ch
     for (i = 0; i < 5; i++)
     {
         printf("Enter Student %d | marks: ", i + 1);
@@ -14,7 +14,7 @@ int main()
     }
     
     // Display:
-    puts("");
+    putchar('\n'); // lightweight
     for (i = 0; i < 5; i++)
         printf("Student %d | marks: %d\n", i + 1, marks[i]);
     

@@ -23,7 +23,7 @@ int main()
     // Input
     for (int i = 0; i < n_stud; i++)
     {
-        puts("");
+        putchar('\n');
         for (int j = 0; j < n_sub; j++)
         {
             printf("Student %d | Subject %d | Marks: ", i + 1, j + 1);
@@ -34,7 +34,7 @@ int main()
     // Output
     for (int i = 0; i < n_stud; i++)
     {
-        puts("");
+        putchar('\n');
         for (int j = 0; j < n_sub; j++)
         {
             printf("Student %d | Subject %d | Marks: %d\n", i + 1, j + 1, marks[i][j]);
