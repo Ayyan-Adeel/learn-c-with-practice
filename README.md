@@ -49,6 +49,8 @@ Perfect for **self-study, revision**, or strengthening your programming foundati
 📁 Chapter_2
 📁 Chapter_2_Practice_Set
 ...
+📁 Chapter_10_Addons
+📁 Chapter_11
 📁 Chapter_11_Practice_Set
 📁 More_Knowledge
 📁 Project_1
