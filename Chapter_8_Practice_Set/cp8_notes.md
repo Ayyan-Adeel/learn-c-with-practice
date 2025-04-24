@@ -6,16 +6,22 @@
 ## 1. ✅ Why Clear the Input Buffer?
 - `scanf("%[^\n]", ...)` **stops at `\n`**, but **leaves `\n` in the buffer**.
 - Next input (`scanf("%c", &c)`) picks that leftover `\n` 😩 — and behaves weirdly.
+
+---
   
 ## 2. ✅ Best Way to Clear It
+
+### For **minimal** usage:
 ```c
 int ch;
 while ((ch = getchar()) != '\n' && ch != EOF);
 ```
-or,
+
+### For **multiple** usage:
 ```c
-for (int c; c != '\n' && c != EOF; c = getchar());
+for (int c = getchar(); c != '\n' && c != EOF; c = getchar()); // use this if you clear buffer too much
 ```
+
 - Clears everything until `\n` or end of input.
 - Simple, portable, and safe! ✅
 
