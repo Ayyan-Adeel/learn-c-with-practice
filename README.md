@@ -82,6 +82,12 @@ Try `Code::Blocks`, `Dev C++`, or `VS Code` with the C extension.
 
 ---
 
+## References  
+
+**CodeWithHarry**, **ChatGPT**, **Gemini**, **Bing AI**, **Google**, **Reddit**, **StackOverflow**, my personal experience, and some books I forgot the names of.
+
+---
+
 ## 📄 License
 
 Licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
