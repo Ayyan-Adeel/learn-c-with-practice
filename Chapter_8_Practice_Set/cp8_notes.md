@@ -12,6 +12,10 @@
 int ch;
 while ((ch = getchar()) != '\n' && ch != EOF);
 ```
+or,
+```c
+for (int c; c != '\n' && c != EOF; c = getchar());
+```
 - Clears everything until `\n` or end of input.
 - Simple, portable, and safe! ✅
 
